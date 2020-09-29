@@ -1,10 +1,10 @@
 import React from 'react';
 
-function App() {
+const Dashboard = () => {
   return (
     <div class="">
     </div>
   );
 }
 
-export default App;
+export default Dashboard;
