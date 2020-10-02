@@ -1,0 +1,32 @@
+.App {
+  margin: 2%;
+}
+
+.rect {
+  width: 440px;
+  height: 193px;
+  background: #f5f5f7;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10%;
+  margin-top: 5%;
+}
+
+.marker {
+  padding: 15px 20px;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.marker--not-complete {
+  background-color: gray;
+  color: darkgray;
+}
+
+.marker--is-complete {
+  background-color: springgreen;
+  color: white;
+  cursor: pointer;
+}
