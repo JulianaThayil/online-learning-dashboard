@@ -1,0 +1,77 @@
+.name {
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: gray;
+}
+.active {
+  color: black;
+}
+.rectangle4 {
+  width: 620px;
+  height: 80px;
+  background-color: #f5f5f7;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.caption {
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.card {
+  width: 208px;
+  height: 96.33px;
+  background: #f5f5f7;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-right: 15px;
+}
+.num {
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 102px;
+}
+
+.txt {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: auto;
+}
+
+.dropdown {
+  background: #f5f5f7;
+  font-weight: bold;
+  padding: 1%;
+  border-radius: 8px;
+}
+
+.react-player {
+  width: 60vw;
+  height: 70vh;
+}
+
+.progress{
+  width:45px;
+  height: 45px;
+}

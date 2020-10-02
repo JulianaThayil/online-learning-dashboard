@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Learn Figma",
+    "author": "Design Course",
+    "time": " 36mins",
+    "rating": "4.9",
+    "imageUrl": "/assets/courseIcons/figma.svg",
+    "videoUrl": "https://www.youtube.com/watch?v=3q3FV65ZrUs"
+  },
+  {
+    "id": 2,
+    "name": "Analog photography",
+    "author": "NBC Left Field",
+    "time": " 3hr 15mins",
+    "rating": "4.7",
+    "imageUrl": "/assets/courseIcons/analogphotography.svg",
+    "videoUrl": "https://www.youtube.com/watch?v=YotUW5WcOh8"
+  },
+  {
+    "id": 3,
+    "name": "Master Instagram",
+    "author": "Digital Tourism Think Tank",
+    "time": " 1hr 40mins",
+    "rating": "4.6",
+    "imageUrl": "/assets/courseIcons/instagram.png",
+    "videoUrl": "https://www.youtube.com/watch?v=Mm3eSWdzUhw"
+  },
+  {
+    "id": 4,
+    "name": "Basics of drawing",
+    "author": "Jean Tate",
+    "time": " 11h 30min",
+    "rating": "4.8",
+    "imageUrl": "/assets/courseIcons/drawing.svg",
+    "videoUrl": "https://www.youtube.com/watch?v=W_BqfkhT4oA"
+  },
+  {
+    "id": 5,
+    "name": "Photoshop - Essence",
+    "author": "Envato Tuts",
+    "time": "3h 07min",
+    "rating": "4.7",
+    "imageUrl": "/assets/courseIcons/photoshop.svg",
+    "videoUrl": "https://www.youtube.com/watch?v=IyR_uYsRdPs"
+  },
+  {
+    "id": 6,
+    "name": "Spanish B2",
+    "author": "Alejandro Velazquez",
+    "time": "4h 06min",
+    "rating": "4.7",
+    "imageUrl": "/assets/courseIcons/spanish.svg",
+    "videoUrl": "https://www.youtube.com/watch?v=qE-03EATjho"
+  }
+]

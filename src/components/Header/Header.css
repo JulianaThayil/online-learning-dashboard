@@ -1,0 +1,100 @@
+.rectangle1 {
+  background-color: #f5f5f7;
+  width: 620px;
+  height: 160px;
+  border-radius: 14px;
+  margin-top: 22px;
+  display: flex;
+}
+.greeting {
+  margin: 5%;
+}
+.welcomeText {
+  font-family: Baloo Bhai;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.welcomeMsg {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.illustration {
+  margin-top: -30px;
+  margin-left: 10%;
+  float: right;
+}
+
+.rectangle2 {
+  margin-top: 22px;
+  height: 80px;
+  width: 500px;
+  border-radius: 14px;
+  background: #f5f5f7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rectangle3 {
+  width: 64px;
+  height: 64px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.courseName {
+  font-family: Baloo Bhai;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.author {
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.percent {
+  width: 25px;
+  height: 15px;
+  top: -20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.courses {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.heading {
+  font-family: Baloo Bhai;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
