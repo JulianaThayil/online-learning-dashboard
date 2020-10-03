@@ -1,9 +1,10 @@
 .menu {
-  width: 100px;
+  width: 8vw;
   height: 90vh;
   background-color: #0c0b0b;
   border-radius: 24px;
   display: flex;
+  position: fixed;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -50,4 +51,10 @@
 
 .dropdown {
   height: fit-content;
+}
+
+@media (max-width: 640px) {
+  .menu {
+    display: none;
+  }
 }

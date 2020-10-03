@@ -29,15 +29,16 @@ const Dashboard = () => {
       });
     }
   }, []);
-
   return (
-    <div class="flex flex-row justify-between">
-      <Menu />
+    <div class="flex flex-col md:flex-row justify-between">
+      <div>
+        <Menu />
+      </div>
 
-      <div class="flex flex-col">
+      <div class="flex flex-col ml-12 sm:ml-24 mt-8">
         <Header />
 
-        <div class="flex justify-between items-center">
+        <div class="flex flex-col sm:flex-row justify-between items-center">
           <CurrentCourse />
           <ArrowButton text="&#xf060;" />
           <ArrowButton text="&#xf061;" />
@@ -55,7 +56,7 @@ const Dashboard = () => {
         </div>
       </div>
 
-      <div class="flex flex-col">
+      <div class="flex flex-col ml-24 md:ml-2">
         <Navbar />
         <br />
 
