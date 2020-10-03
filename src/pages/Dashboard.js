@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
 
 import Menu from "../components/Navigation/Menu";
@@ -15,6 +15,21 @@ import ArrowButton from "../components/Buttons/ArrowButton";
 import premium from "../assets/icons/premium.svg";
 
 const Dashboard = () => {
+  useEffect(() => {
+    if (!("Notification" in window)) {
+      alert("This browser does not support desktop notification");
+    } else {
+      Notification.requestPermission().then(() => {
+        var options = {
+          body: "Check out the new course for Analog Photography",
+          icon:
+            "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        };
+        new Notification("New Course Added", options);
+      });
+    }
+  }, []);
+
   return (
     <div class="flex flex-row justify-between">
       <Menu />
