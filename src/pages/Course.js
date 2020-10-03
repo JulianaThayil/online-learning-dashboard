@@ -29,10 +29,10 @@ const Course = (props) => {
   };
 
   return (
-    <div class="flex justify-between">
+    <div class="flex flex-col md:flex-row justify-between">
       <Menu />
       {currentCourse && (
-        <div class="flex flex-col">
+        <div class="flex flex-col ml-2 sm:ml-32">
           <h1 class="heading"> {currentCourse.name}</h1>
           <p> by {currentCourse.author}</p>
           <VideoPlayer
@@ -41,24 +41,24 @@ const Course = (props) => {
           />
         </div>
       )}
+      <div class="courseprogress">
+        <div class="flex flex-col items-center">
+          <CircularProgressbar
+            value={watchPercentage}
+            text={`${watchPercentage}%`}
+          />
+          <br />
+          <h2> Complete the course to get your certificate</h2>
 
-      <div class="flex flex-col">
-        <CircularProgressbar
-          class="w-12 h-12"
-          value={watchPercentage}
-          text={`${watchPercentage}%`}
-        />
-        <br />
-        <h2> Complete the course to get your certificate</h2>
-
-        <div
-          className={
-            watchComplete
-              ? "marker marker--is-complete"
-              : "marker marker--not-complete"
-          }
-        >
-          Get Certificate
+          <div
+            className={
+              watchComplete
+                ? "marker marker--is-complete"
+                : "marker marker--not-complete"
+            }
+          >
+            Get Certificate
+          </div>
         </div>
       </div>
     </div>

@@ -8,9 +8,11 @@
   text-align: left;
   color: gray;
 }
+
 .active {
   color: black;
 }
+
 .rectangle4 {
   width: 45vw;
   height: 80px;
@@ -20,6 +22,7 @@
   justify-content: space-around;
   align-items: center;
 }
+
 .caption {
   font-family: Roboto;
   font-size: 13px;
@@ -42,6 +45,7 @@
   padding-left: 5%;
   margin-right: 15px;
 }
+
 .num {
   font-family: Baloo Bhai;
   font-style: normal;
@@ -75,13 +79,34 @@
   width: 45px;
   height: 45px;
 }
+
+.courseprogress {
+  width: 15vw;
+  height: 15vh;
+  margin-top: 15vh;
+}
+
 @media (max-width: 900px) {
   .rectangle4 {
     width: 80vw;
   }
+
+  .react-player {
+    width: 90vw;
+  }
+
+  .courseprogress {
+    width: 45vw;
+    height: 45vh;
+    margin-left: 30vw;
+  }
 }
+
 @media (max-width: 480px) {
   .rectangle4 {
     width: 100vw;
+  }
+  .react-player {
+    width: 90vw;
   }
 }
